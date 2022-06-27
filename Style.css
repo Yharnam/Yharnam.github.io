@@ -87,8 +87,6 @@ header .categorias a.activo {
 
 
 .switch {
-    top: 38px;
-    margin-left: 100%;
     background: #343D5B;
     border-radius: 1000px;
     border: none;
@@ -98,6 +96,8 @@ header .categorias a.activo {
     display: -ms-flexbox;
     display: flex;
     outline: none;
+    top: 0px;
+    margin-left: 90%;    
 }
 
 .switch::after {
