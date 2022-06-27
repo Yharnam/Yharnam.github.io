@@ -33,10 +33,15 @@ header {
 header .logo {
     text-align: center;
     margin-bottom: 40px;
-    color: rgb(85, 85, 85);
+}
+.dark .logo h1{
+    color: #737373;
 }
 header .logo p {
     color: #6d6c6c;
+}
+.dark .logo p{
+    color: #3e3e3e;
 }
 header form {
     width: 100%;
@@ -49,16 +54,16 @@ header .barra-busqueda{
     width: 70%;
     height: 40px;
     line-height: 40px;
-    background: rgb(182, 182, 182);
+    background: rgb(222, 222, 222);
     padding: 0 20px;
     border-radius: 100px;
     border: none;
     text-align: center;
     font-size: 16px;
 }
-header.dark .barra-busqueda{
+.dark .barra-busqueda{
 
-    background: rgb(69, 69, 69);
+    background: rgb(47, 47, 47);
 }
 header .categorias {
     display: flex;
@@ -77,7 +82,7 @@ header .categorias a.activo {
     color: rgb(82, 82, 82);
 }
 /* ------------------------- */
-/* Modo Oscuro */
+/* Dark Mode */
 /* ------------------------- */
 
 
@@ -194,11 +199,16 @@ header .categorias a.activo {
 .overlay .descripcion {
     display: block;
     background: #fff;
+    color: #848383;
     padding: 20px;
     text-align: center;
     margin-top: 5px;
     border-radius: 10px;
     max-width: 50%;
+}
+.dark .descripcion{
+    background: #7c7c7c;
+    color: #d8d8d8;
 }
 .contenedor-img {
     position: relative;
@@ -277,7 +287,7 @@ footer .creado-por {
 }
 
 footer .creado-por a {
-    color: #000;
+    color: rgb(79, 79, 79);
 }
 
 footer .creado-por a:hover {
